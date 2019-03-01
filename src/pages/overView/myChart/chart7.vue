@@ -133,7 +133,7 @@ export default {
             myChart.on('click', ()=>{
                 // alert(1111)
                 // this.maskTableOnoff=true;
-                this.$emit('childByValue', this.maskTableOnoff)
+                this.$emit('openTable', this.maskTableOnoff)
             });
         },
         
